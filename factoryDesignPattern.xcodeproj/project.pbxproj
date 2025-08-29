@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		AC8F3CAD2E5F38D300766034 /* factoryDesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = factoryDesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8F3CB72E5F38DB00766034 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		AC8F3CA42E5F38D300766034 = {
 			isa = PBXGroup;
 			children = (
+				AC8F3CB72E5F38DB00766034 /* README.md */,
 				AC8F3CAF2E5F38D300766034 /* factoryDesignPattern */,
 				AC8F3CAE2E5F38D300766034 /* Products */,
 			);
@@ -253,6 +255,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F334MA88H;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -264,6 +267,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F334MA88H;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
